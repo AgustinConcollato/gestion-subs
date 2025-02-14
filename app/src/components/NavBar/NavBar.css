@@ -1,0 +1,129 @@
+aside {
+    width: 300px;
+    min-width: 300px;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f9f9f9;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.header-nav {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.header-nav img {
+    object-fit: contain;
+    width: 150px;
+    margin: auto;
+}
+
+aside nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+aside nav h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+aside nav a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+aside>div nav:last-child {
+    border-bottom: none;
+}
+
+aside a.active {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+aside a.active svg {
+    color: #232853;
+}
+
+.user-menu {
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.user-menu div {
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+}
+
+.user-menu div:hover button {
+    background: #eee;
+    border-radius: 5px;
+}
+
+.user-menu h4,
+.user-menu p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.user-menu div>button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+aside div.user-menu nav {
+    background: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    cursor: auto;
+    border-radius: 5px;
+}
+
+
+.user-menu nav button {
+    cursor: pointer;
+    background: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.user-menu nav button:hover {
+    background: #eee;
+}

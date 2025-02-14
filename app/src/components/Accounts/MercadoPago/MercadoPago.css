@@ -1,0 +1,67 @@
+.mercado-pago {
+    width: 100%;
+    max-width: calc(70%);
+    margin: auto;
+}
+
+.auth .mercado-pago {
+    max-height: calc(100vh - 30%);
+    overflow: auto;
+}
+
+.auth .mercado-pago::-webkit-scrollbar {
+    appearance: none;
+}
+
+.auth .mercado-pago::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border: 6px solid #fff;
+    border-radius: 10px;
+}
+
+.mercado-pago h1 {
+    margin: 20px 0 10px;
+}
+
+.mercado-pago h3 {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.mercado-pago p {
+    margin-bottom: 30px;
+}
+
+.auth .mercado-pago .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+    position: sticky;
+    bottom: 0;
+    background: linear-gradient(#ffffffb7 1%, #fff);
+    background: #fff;
+    padding: 20px calc(15%) 1px;
+    transform: translateY(1px);
+}
+
+.mercado-pago .btn-container button {
+    margin: 0;
+}
+
+.auth .mercado-pago .btn-container .btn-next-step {
+    width: 65%;
+    max-width: none;
+    margin: 0;
+}
+
+.mercado-pago .btn-container .btn-next-step {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.mercado-pago .btn-container .btn-back-step {
+    width: 35%;
+}

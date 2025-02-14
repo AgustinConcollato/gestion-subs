@@ -1,0 +1,41 @@
+.auth .image-form-businesses {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.image-form-businesses input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image-form-businesses label {
+    color: #6e6e6e;
+}
+
+.image-form-businesses img {
+    width: 100%;
+    max-width: 120px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.image-form-businesses .remove-logo {
+    background: #b8191920;
+    color: #b81919;
+    padding: 15px;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.image-form-businesses .remove-logo:hover {
+    background: #b8191920;
+    color: #b81919;
+}
